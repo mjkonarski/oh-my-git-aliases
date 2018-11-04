@@ -17,3 +17,7 @@ If you want to know more see my [blog post](http://mjk.space/git-aliases-i-cant-
 source ~/.oh-my-zsh-aliases
 ```
 3. Restart your terminal.
+
+### License
+
+This project is release under the MIT license.
