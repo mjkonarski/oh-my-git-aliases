@@ -67,6 +67,10 @@ alias gcl='g clone'
 
 alias gr='g remote'
 
+# combos
+alias gfgrh='gfe && ggrh'
+alias gfrbiom='gfe && grbiom'
+
 # https://github.com/robbyrussell/oh-my-zsh
 function current_branch() {
   ref=$(git symbolic-ref HEAD 2> /dev/null) || \
