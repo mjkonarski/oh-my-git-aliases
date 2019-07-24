@@ -48,7 +48,7 @@ alias greh='gre --hard'
 alias ggrh='greh origin/$(current_branch)'
 
 grf() {
-        gre @~ "$@" && gc! --no-edit
+        gre @~ "$@" && gc! --no-verify --no-edit
 }
 
 alias gd='g diff'
